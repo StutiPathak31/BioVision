@@ -1,11 +1,11 @@
-@prefix : <#>.
-:Sun :right-of :Birds .
-:Sun :above :Mountains .
-:Birds :above :Mountains .
-:Mountains :above :River .
-:Mountains :above :House .
-:House :above :Land .
-:House :right-of :Boat .
-:Land :right-of :River .
-:Boat :above :River .
-:Tree :above :House .
+@prefix p: <#>.
+p:Sun p:right-of p:Birds .
+p:Sun p:above p:Mountains .
+p:Birds p:above p:Mountains .
+p:Mountains p:above p:River .
+p:Mountains p:above p:House .
+p:House p:above p:Land .
+p:House p:right-of p:Boat .
+p:Land p:right-of p:River .
+p:Boat p:above p:River .
+p:Tree p:above p:House .
